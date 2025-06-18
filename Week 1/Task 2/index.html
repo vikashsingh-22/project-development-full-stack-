@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Note App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Note App</h1>
+  <p>Double click on a note to remove it</p>
+  <div id="container">
+
+    <div class="note" contenteditable="true" ondblclick="deleteNote(this)"  >
+      
+    </div>
+    <div class="note add-note" onclick="addNewNote()">+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
